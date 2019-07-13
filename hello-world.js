@@ -7,8 +7,11 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   let file, contentType;
   if (req.url === '/style.css') {
-    file = './style.css';
+    file = './src/style.css';
     contentType = 'text/css';
+  } else if (req.url === '/connections.js') {
+    file = './connections.js';
+    contentType = 'application/javascript';
   } else {
     file = './index.html';
     contentType = 'text/html';

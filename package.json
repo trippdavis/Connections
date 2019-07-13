@@ -1,0 +1,24 @@
+{
+  "name": "Connections",
+  "version": "1.0.0",
+  "description": "",
+  "main": "connections.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trippdavis/Connections.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trippdavis/Connections/issues"
+  },
+  "homepage": "https://github.com/trippdavis/Connections#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
